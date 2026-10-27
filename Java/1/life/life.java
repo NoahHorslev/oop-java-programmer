@@ -12,6 +12,8 @@ public class life {
         return gameBoard;
     }
 
+    // Test comment
+
     public static int updateCell(int gameBoard[][], int yCoordinate, int xCoordinate){
         int currentState = gameBoard[yCoordinate][xCoordinate];
 
