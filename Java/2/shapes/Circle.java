@@ -1,4 +1,4 @@
-public class Circle {
+public class Circle implements Shape2D {
     public double radius;
 
     Circle (double radius){
@@ -7,11 +7,11 @@ public class Circle {
 
     double pi = 3.14;
 
-    public double calculateApproxArea(){
+    public double calculateArea(){
         return this.radius * this.radius * pi;  
     }
 
-    public double calculateApproxCircumference(){
+    public double calculateCircumference(){
         return this.radius * 2 * pi;
     }
 }

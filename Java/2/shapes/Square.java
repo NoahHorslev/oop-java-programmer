@@ -1,4 +1,4 @@
-public class Square {
+public class Square implements Shape2D {
     public double width;
 
     Square (double width){

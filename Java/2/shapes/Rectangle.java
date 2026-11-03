@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle implements Shape2D {
     public double width;
     public double height;
 
